@@ -1,0 +1,9 @@
+docker build -t surajsachansudo/discovery-server:discoveryv1 .
+docker build -t surajsachansudo/apigateway:8 .
+docker build -t surajsachansudo/consumers:8 .
+docker build -t surajsachansudo/sellers:8 .
+docker build -t surajsachansudo/orders:8 .
+docker build -t surajsachansudo/requests:8 .
+
+Some links: Eureka UI: http://localhost:8761/
+Jaegar UI: http://localhost:16686/search
